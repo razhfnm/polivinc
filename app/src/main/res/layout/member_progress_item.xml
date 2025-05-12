@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#000000"
+    >
+
+    <!-- Nombre o ID del integrante -->
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del miembro"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/white" />
+
+    <!-- Texto de progreso -->
+    <TextView
+        android:id="@+id/memberProgressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0/0"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/white"
+        />
+
+    <!-- Barra de progreso -->
+    <ProgressBar
+        android:id="@+id/memberProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:max="100"
+        android:progressTint="#FF9800"
+        android:backgroundTint="#1A1A1A"
+       />
+</LinearLayout>

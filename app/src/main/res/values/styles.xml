@@ -1,0 +1,14 @@
+<resources>
+    <!-- Tema de la aplicación -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#111111</item> <!-- Color de fondo oscuro -->
+        <item name="colorAccent">#FF6F61</item> <!-- Color rosado -->
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+
+    <!-- Estilo personalizado para los botones -->
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#FF6F61</item> <!-- Color de fondo rosado -->
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

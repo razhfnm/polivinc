@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+    <TextView
+        android:textColor="@android:color/white"
+        android:id="@+id/teamCodeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Código del equipo: "
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <ProgressBar
+        android:id="@+id/groupProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:progressTint="#6D023A"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:max="100"
+        android:layout_marginBottom="8dp" />
+    <Button
+        android:id="@+id/deleteTeamButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar equipo"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/groupProgressText"
+        android:layout_marginHorizontal="16dp" />
+
+    <TextView
+        android:id="@+id/groupProgressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progreso grupal: 0%"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/memberListView"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

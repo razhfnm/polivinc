@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102023925429",
+    "project_id": "polivinc-383ed",
+    "storage_bucket": "polivinc-383ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102023925429:android:3ad9d5258b6f36be7978fc",
+        "android_client_info": {
+          "package_name": "com.example.polivinc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-PZalin0Glc082bcKvSZ7Mwb_jTGebnw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

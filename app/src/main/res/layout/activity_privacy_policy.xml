@@ -1,0 +1,44 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título del Aviso de Privacidad -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aviso de Privacidad"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"/>
+
+        <!-- Contenido del Aviso de Privacidad -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="El artículo 16 de la Constitución Política de los Estados Unidos Mexicanos, reconoce el derecho que tienen los ciudadanos para acceder, rectificar y cancelar sus datos personales, así como oponerse a su uso.\n\nEn POLIVINC queremos mantener la seguridad de tus datos y que el usuario se sienta seguro de compartirlos con nosotros.\n\nLos datos que POLIVINC requiere recopilar son los siguientes:\n\n• Nombre completo del usuario\n• Contraseña de la cuenta\n• Ubicación geográfica (escuela)\n• Correo electrónico\n• Grupo\n\nEn su carácter de usuario, le informamos los términos y condiciones bajo las cuales POLIVINC llevará a cabo el tratamiento de los datos personales que usted nos proporcione y se encuentren bajo nuestro control y ámbito de decisión razonable, así como la forma y los medios bajo los cuales podrá ejercer sus derechos a la privacidad, a ejercer control sobre sus datos personales y a la protección de los mismos, en apego a la Ley, el Reglamento, para cumplir con los principios de licitud, calidad, consentimiento, información, finalidad, lealtad, proporcionalidad y responsabilidad, previstos en la Ley.\n\nEn virtud de lo anterior y en términos del Artículo 8 de la LFPDPPP, en el momento en que POLIVINC cuente con sus Datos Personales para el Tratamiento a que se refiere el presente Aviso de Privacidad, se entenderá que su consentimiento ha sido otorgado salvo manifestación expresa, formal y por escrito en contrario, y en consecuencia POLIVINC podrá mantener y tratar en sus registros, tanto físicos como electrónicos, toda la información relativa a sus Datos Personales. Es importante hacerle saber que POLIVINC se abstendrá de transmitir por cualquier medio y/o acto de diversa naturaleza sus Datos Personales con algún tercero, sin contar con el consentimiento previo de su parte.\n\nPOLIVINC no transferirá a terceros su información personal, salvo por su previo consentimiento cuando éste sea requerido legalmente. Los Datos Personales que usted proporcione a POLIVINC podrán compilarse y fijarse en una base de datos propiedad exclusiva de GOOGLE, la cual tendrá un tratamiento limitado al cumplimiento de las finalidades previstas en el presente Aviso de Privacidad. POLIVINC se obliga en todo momento, así como sus programadores, diseñadores y colaboradores, a respetar integralmente el presente Aviso de Privacidad.\n\nAsimismo, POLIVINC hace de su conocimiento que, como parte de su preocupación en cuanto al adecuado Tratamiento y cuidado de sus Datos Personales mantiene diversos mecanismos, procedimientos y medidas de seguridad de naturaleza administrativa y tecnológica tendientes a lograr la protección de dicha información contra daños, pérdidas, alteración, destrucción o uso no autorizado de la misma.\n\nPOLIVINC se reserva el derecho de cambiar este Aviso de Privacidad en cualquier momento."
+            android:textColor="@android:color/white"
+            android:lineSpacingExtra="8dp"
+            android:textSize="16sp"/>
+
+        <!-- Botón de Aceptar -->
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="Aceptar"
+            android:background="@drawable/rounded_button"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>

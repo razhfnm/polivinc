@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#121212</color>
+    <color name="primaryColor">#1E88E5</color>
+
+    <color name="dividerColor">#E0E0E0</color>
+    <!-- res/values/colors.xml -->
+
+        <color name="secondaryColor">#FF6200EE</color> <!-- Cambia este valor a tu color deseado -->
+    <!-- colors.xml -->
+    <color name="colorAccent">#6D023A</color> <!-- O usa el color deseado -->
+</resources>
