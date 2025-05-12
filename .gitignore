@@ -13,3 +13,286 @@
 .externalNativeBuild
 .cxx
 local.properties
+gitignore
+# Ignora los archivos generados por el sistema de compilación de Android Studio y Gradle.
+# Estos archivos son específicos de tu entorno local y no deben ser versionados.
+
+# Built application files
+# Archivos de aplicación compilados (APK, AAB, AAR)
+*.apk
+*.aab
+*.aar
+
+# Files for the ART/Dalvik VM
+# Archivos de la máquina virtual (archivos DEX)
+*.dex
+
+# Java class files
+# Archivos de clases Java compilados
+*.class
+
+# Generated files
+# Directorios y archivos generados durante la compilación
+bin/
+gen/
+out/
+
+# Gradle files
+# Directorios y archivos de configuración y caché de Gradle
+.gradle/
+build/
+
+# Local configuration file (SDK location, etc.)
+# Archivo de propiedades local que contiene la ruta del SDK y otras configuraciones locales.
+# Este archivo es específico de tu máquina.
+local.properties
+
+# IntelliJ IDEA files
+# Directorios y archivos de configuración específicos de Android Studio (basado en IntelliJ IDEA)
+.idea/
+.iml
+
+# Keystore files
+# Archivos de almacén de claves utilizados para firmar la aplicación.
+# Contienen información sensible y no deben ser públicos.
+*.jks
+*.keystore
+
+# Google Services file
+# Archivo de configuración de Firebase. Contiene claves API y IDs de proyecto.
+# ¡Muy importante no subir este archivo a repositorios públicos!
+google-services.json
+
+# Any other files you want to ignore (add your own here)
+# Puedes añadir aquí cualquier otro archivo o directorio específico de tu proyecto que desees ignorar.
+# Por ejemplo, si tienes un directorio para archivos temporales o de prueba local:
+# temp/
+# my_local_tests/
+
+# Archivos de registro (logs)
+*.log
+
+# Archivos de depuración (debug files)
+*.swp
+*.swo
+
+# Directorios de caché de Android Studio
+# Estos directorios pueden variar dependiendo de la versión de Android Studio y el sistema operativo.
+# Puedes añadir rutas específicas si encuentras directorios de caché que no se ignoran automáticamente.
+# Por ejemplo:
+# ~/.gradle/caches/
+# ~/.android/build-cache/
+
+# Archivos de configuración de ProGuard/R8 generados
+proguard-rules.pro.bak
+
+# Archivos de configuración de lint generados
+lint-results.html
+lint-results.xml
+
+# Archivos de cobertura de código
+coverage.ec
+coverage.html
+
+# Archivos de instantáneas de pruebas
+snapshots/
+
+# Archivos de configuración de dependencias locales
+# Si tienes alguna dependencia local que no quieres versionar
+# libs/*.jar
+
+# Archivos de configuración de emuladores o dispositivos virtuales
+# Si tienes archivos de configuración específicos de emuladores que no quieres compartir
+# ~/.android/avd/
+
+# Archivos de configuración de Git específicos del repositorio (opcional)
+# Si tienes alguna configuración de Git específica para este repositorio que no quieres compartir
+# .gitattributes
+# .gitmodules
+
+# Archivos de configuración de otros sistemas de control de versiones (si los usas)
+# .svn/
+# .hg/
+
+# Archivos de configuración de editores o IDEs específicos (si no están cubiertos por .idea)
+# .vscode/
+# *.sublime-project
+# *.sublime-workspace
+
+# Archivos de paquetes de Node.js (si usas Node.js en tu proyecto Android, por ejemplo para React Native)
+# node_modules/
+# npm-debug.log
+# yarn-error.log
+
+# Archivos de paquetes de Python (si usas Python en tu proyecto Android)
+# __pycache__/
+# *.pyc
+
+# Archivos de paquetes de Ruby (si usas Ruby en tu proyecto Android)
+# vendor/bundle/
+
+# Archivos de paquetes de otros lenguajes (si los usas)
+# ...
+
+# Archivos de configuración de Docker (si usas Docker)
+# Dockerfile.local
+# docker-compose.local.yml
+
+# Archivos de configuración de bases de datos locales
+# *.sqlite
+# *.db
+
+# Archivos de configuración de servidores locales
+# server.log
+# server.pid
+
+# Archivos de configuración de pruebas locales
+# test_results/
+
+# Archivos de configuración de despliegue local
+# deploy_config.local.yml
+
+# Archivos de configuración de CI/CD locales
+# .gitlab-ci.local.yml
+# .travis.local.yml
+
+# Archivos de configuración de herramientas de análisis de código locales
+# .eslintrc.local.js
+# .prettierrc.local.js
+
+# Archivos de configuración de herramientas de formato de código locales
+# .editorconfig
+
+# Archivos de configuración de herramientas de documentación locales
+# docs/build/
+
+# Archivos de configuración de herramientas de traducción locales
+# translations/local/
+
+# Archivos de configuración de herramientas de internacionalización locales
+# i18n/local/
+
+# Archivos de configuración de herramientas de localización locales
+# l10n/local/
+
+# Archivos de configuración de herramientas de accesibilidad locales
+# accessibility_reports/
+
+# Archivos de configuración de herramientas de seguridad locales
+# security_reports/
+
+# Archivos de configuración de herramientas de rendimiento locales
+# performance_reports/
+
+# Archivos de configuración de herramientas de depuración locales
+# debug_logs/
+
+# Archivos de configuración de herramientas de pruebas de interfaz de usuario locales
+# ui_test_screenshots/
+
+# Archivos de configuración de herramientas de pruebas de integración locales
+# integration_test_reports/
+
+# Archivos de configuración de herramientas de pruebas unitarias locales
+# unit_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de instrumentación locales
+# instrumentation_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de carga locales
+# load_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de estrés locales
+# stress_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de usabilidad locales
+# usability_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de compatibilidad locales
+# compatibility_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de seguridad locales
+# security_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de rendimiento locales
+# performance_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de accesibilidad locales
+# accessibility_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de internacionalización locales
+# i18n_test_reports/
+
+# Archivos de configuración de herramientas de localización locales
+# l10n_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de interfaz de usuario locales
+# ui_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de integración locales
+# integration_test_reports/
+
+# Archivos de configuración de herramientas de pruebas unitarias locales
+# unit_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de instrumentación locales
+# instrumentation_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de carga locales
+# load_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de estrés locales
+# stress_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de usabilidad locales
+# usability_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de compatibilidad locales
+# compatibility_test_reports/
+
+# Archivos de configuración de herramientas de seguridad locales
+# security_test_reports/
+
+# Archivos de configuración de herramientas de rendimiento locales
+# performance_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de accesibilidad locales
+# accessibility_test_reports/
+
+# Archivos de configuración de herramientas de internacionalización locales
+# i18n_test_reports/
+
+# Archivos de configuración de herramientas de localización locales
+# l10n_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de interfaz de usuario locales
+# ui_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de integración locales
+# integration_test_reports/
+
+# Archivos de configuración de herramientas de pruebas unitarias locales
+# unit_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de instrumentación locales
+# instrumentation_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de carga locales
+# load_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de estrés locales
+# stress_test_reports/
+
+# Archivos de configuración de herramientas de pruebas de usabilidad locales
+# usability_test_reports/
+
+# Archivos de configuración de herramientas de compatibilidad locales
+# compatibility_test_reports/
+
+# Archivos de configuración de herramientas de seguridad locales
+# security_test_reports/
+
+# Archivos de configuración de herramientas de rendimiento locales
+# performance_test_reports/
+
+# Archivos de configuración de herramientas de accesibilidad
